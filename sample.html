@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="header">
+        <h1>WEATHER APP</h1>
+        <div>
+            <input type="text" name="" id="input" placeholder="Enter city name">
+            <button id="search" onclick="searchByCity()">Search</button></input>
+        </div>
+    </div>
+
+    <main>        
+        <div class="weather">
+            <h2 id="city"> Now at Chennai</h2>
+            <div class="temp-box">
+                <img src="C:\Users\bhoom\Downloads\weather.jpeg" alt="" id="img">
+                <p id="temperature">45°C</p>
+            </div>
+            <span id="clouds">Sunny</span>
+        </div>
+        <div class="divider1"></div>
+
+        <div class="forecstH">
+            <p class="cast-header">Upcoming Cast</p>
+            <div class="templist">
+
+                <div class="next">
+                    <div>
+                        <h3> 12.3.24</h3>
+                        <p class="time">8:30 PM</p>
+                        
+                        <p> 20 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Moderate Rain</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <h3> 13.3.24</h3>
+                        <p class="time">4:30 PM</p>
+                        <p>25 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">light Rain</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <h3> 14.3.24</h3>
+                        <p class="time">2:30 PM</p>
+                        <p>15 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">heavy Rain</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <h3> 15.3.24</h3>
+                        <p class="time">6:30 PM</p>
+                        <p>27 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">most cloudy</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <h3> 16.3.24</h3>
+                        <p class="time">7:30 PM</p>
+                        <p>29 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">cloudy</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="forecstD">
+        <div class="divider2"></div>
+        <p class="cast-header"> Forecasting for next 4 days </p>
+        <div class="weekF">
+
+            <div class="dayF">
+                <p class="date">Sunday Jul 17 2024</p>
+                <p>25 °C / 31 °C</p>
+                <p class="desc">Sunny</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Monday Jul 18 2024</p>
+                <p>20°C / 31 °C</p>
+                <p class="desc">Partially Rains</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Tuersay Jul 19 2022</p>
+                <p>31 °C / 31 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Wednesday Jul 20 2022</p>
+                <p>31 °C / 31 °C</p>
+                <p class="desc">Overcast Clouds</p>
+            </div>
+        </div>
+    </div>
+    <script src="/weather.js"></script>
+</body>
+</html>
